@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>FORMS</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<form id="Survey_Form">
+		<div id="description">Customer Survey Form</div>
+		<fieldset class="fieldset">
+			<div class="sub-group">
+				<labeL class="left" id="name-label" for="name">Customer name: </labeL>
+				<input type="text" name="customer-name" class="right input-field" id="name"
+					placeholder="Enter your name" required>
+			</div>
+			<div class="sub-group">
+				<labeL class="left" id="name-label" for="name">Phone Number: </labeL>
+				<input type="text" name="customer-name" class="right input-field" id="name"
+					placeholder="Enter your Phone Number" required>
+			</div>
+			<div class="sub-group">
+				<labeL class="left" id="name-label" for="name">Email: </labeL>
+				<input type="text" name="customer-name" class="right input-field" id="name"
+					placeholder="Enter your Email Address" required>
+			</div>
+			<div class="sub-group">
+				<labeL class="left" id="name-label" for="name">National ID: </labeL>
+				<input type="text" name="customer-name" class="right input-field" id="name"
+					placeholder="Enter your ID No." required>
+			</div>
+			<br>
+			<div class="commentbox">
+				<textarea rows="7" placeholder="Please enter your comment here....."></textarea>
+			</div>
+			<br>
+			<div class="sub-group">
+				<label class="left" for="dropdown"><B>How many times have you visited?</B></label>
+				<select class="right dropdown" id="dropdown" name="dropdown">
+					<option selected disabled>Select an option</option>
+					<option value="first">First-timer</option>
+					<option value="second">Second visit</option>
+					<option value="multiple">Multiple visits</option>
+				</select
+			</div>
+		</fieldset>
+	</form>
+</head>
+
+<body>
+	<script src="script.js"></script>
+	<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
